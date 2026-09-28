@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Alpine.js: sembunyikan elemen ber-x-cloak sampai Alpine selesai inisialisasi,
+   supaya tidak "kedip" muncul sesaat sebelum x-show/x-if dievaluasi. */
+[x-cloak] { display: none !important; }
